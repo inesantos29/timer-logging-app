@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import TimerDashboard from './components/TimerDashboard';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-
+      <TimerDashboard/>
     </div>
   );
 }
